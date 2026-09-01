@@ -24,6 +24,7 @@ python main.py --html "path/to/saved_page.html" --skin "#8D5524" --limit 20 --to
 - `--html`   Either a live http(s) URL, or a path to a page saved via
              browser "Save As -> Webpage, Complete" from a Myntra
              listing/search URL.
+             An example URL: https://www.myntra.com/jeans?rawQuery=jeans
 - `--skin`   Skin tone as a hex color, e.g. `#8D5524`.
 - `--limit`  How many product tiles to analyze (default 20). Each one
              triggers an image download, so keep this reasonable.
