@@ -51,7 +51,7 @@ python main.py --html "path/to/saved_page.html" --skin "#8D5524" --limit 20 --to
    (lightness difference) — combined into a 0-100 score.
 5. `main.py` orchestrates all of the above and prints a ranked table.
 
-## Known limitations (read before treating scores as gospel)
+## Known limitations
 - **The matching algorithm is a styling heuristic**, built from commonly
   cited personal-color-analysis rules of thumb — not a validated
   colorimetric or perceptual model. A stronger version would work in
